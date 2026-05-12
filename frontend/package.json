@@ -1,0 +1,19 @@
+{
+  "name": "wedding-hall-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Jalal Khan Wedding Hall Management System",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "serve": "node serve.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.383.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  }
+}
